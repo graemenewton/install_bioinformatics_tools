@@ -12,5 +12,8 @@ rm Trimmomatic-0.39.zip
 # Download Manual
 wget http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf -P Trimmomatic-0.39/
 
+# Create shortcut
+sudo ln -s ./Trimmomatic-0.39/trimmomatic-0.39.jar ./trimmomatic
+
 # Run trimmomatic
-java -jar Trimmomatic-0.39/trimmomatic-0.39.jar
+java -jar trimmomatic
