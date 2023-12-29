@@ -4,6 +4,8 @@ wget https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.1.zi
 
 unzip fastqc_v0.12.1.zip
 
+rm fastqc_v0.12.1.zip
+
 cd fastqc_v0.12.1
 
 chmod 755 fastqc
