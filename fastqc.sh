@@ -16,4 +16,4 @@ cd fastqc_v0.12.1
 chmod 755 fastqc
 
 # Add shortcut to main directory (update paths)
-sudo ln -s /path/to/FastQC/fastqc /usr/local/bin/fastqc
+sudo ln -s ./fastqc_v0.12.1/fastqc ./fastqc
